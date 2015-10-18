@@ -1,6 +1,6 @@
 # sdl pkg-config source file
 
-prefix=/tmp/qemu-android-deps-build/build/install-darwin-x86_64
+prefix=/tmp/digit-build-temp-85922/install-darwin-x86_64
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
@@ -10,6 +10,6 @@ Description: Simple DirectMedia Layer is a cross-platform multimedia library des
 Version: 2.0.3
 Requires:
 Conflicts:
-Libs: -L${libdir}  -lSDL2  
+Libs: -L${libdir}  -lSDL2   -lm -Wl,-framework,OpenGL  -Wl,-framework,ForceFeedback -lobjc -Wl,-framework,Cocoa -Wl,-framework,Carbon -Wl,-framework,IOKit -Wl,-framework,CoreAudio -Wl,-framework,AudioToolbox -Wl,-framework,AudioUnit
 Libs.private: -lSDL2    -lm -Wl,-framework,OpenGL  -Wl,-framework,ForceFeedback -lobjc -Wl,-framework,Cocoa -Wl,-framework,Carbon -Wl,-framework,IOKit -Wl,-framework,CoreAudio -Wl,-framework,AudioToolbox -Wl,-framework,AudioUnit
 Cflags: -I${includedir}/SDL2  -D_THREAD_SAFE
