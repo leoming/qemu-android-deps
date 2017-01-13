@@ -154,7 +154,7 @@
 /* #undef HAVE_SIGACTION */
 /* #undef HAVE_SA_SIGACTION */
 /* #undef HAVE_SETJMP */
-/* #undef HAVE_NANOSLEEP */
+#define HAVE_NANOSLEEP 1
 /* #undef HAVE_SYSCONF */
 /* #undef HAVE_SYSCTLBYNAME */
 /* #undef HAVE_CLOCK_GETTIME */
@@ -181,7 +181,7 @@
 /* #undef SDL_EVENTS_DISABLED */
 /* #undef SDL_FILE_DISABLED */
 /* #undef SDL_JOYSTICK_DISABLED */
-/* #undef SDL_HAPTIC_DISABLED */
+#define SDL_HAPTIC_DISABLED 1
 /* #undef SDL_LOADSO_DISABLED */
 /* #undef SDL_RENDER_DISABLED */
 /* #undef SDL_THREADS_DISABLED */
@@ -203,7 +203,7 @@
 #define SDL_AUDIO_DRIVER_DISK 1
 #define SDL_AUDIO_DRIVER_DUMMY 1
 /* #undef SDL_AUDIO_DRIVER_XAUDIO2 */
-#define SDL_AUDIO_DRIVER_DSOUND 1
+/* #undef SDL_AUDIO_DRIVER_DSOUND */
 /* #undef SDL_AUDIO_DRIVER_ESD */
 /* #undef SDL_AUDIO_DRIVER_ESD_DYNAMIC */
 /* #undef SDL_AUDIO_DRIVER_NAS */
@@ -224,17 +224,17 @@
 /* #undef SDL_INPUT_LINUXKD */
 /* #undef SDL_INPUT_TSLIB */
 /* #undef SDL_JOYSTICK_HAIKU */
-#define SDL_JOYSTICK_DINPUT 1
+/* #undef SDL_JOYSTICK_DINPUT */
 /* #undef SDL_JOYSTICK_DUMMY */
 /* #undef SDL_JOYSTICK_IOKIT */
 /* #undef SDL_JOYSTICK_LINUX */
-/* #undef SDL_JOYSTICK_WINMM */
+#define SDL_JOYSTICK_WINMM 1
 /* #undef SDL_JOYSTICK_USBHID */
 /* #undef SDL_JOYSTICK_USBHID_MACHINE_JOYSTICK_H */
 /* #undef SDL_HAPTIC_DUMMY */
 /* #undef SDL_HAPTIC_LINUX */
 /* #undef SDL_HAPTIC_IOKIT */
-#define SDL_HAPTIC_DINPUT 1
+/* #undef SDL_HAPTIC_DINPUT */
 
 /* Enable various shared object loading systems */
 /* #undef SDL_LOADSO_HAIKU */
@@ -294,7 +294,7 @@
 /* #undef SDL_VIDEO_DRIVER_X11_CONST_PARAM_XEXTADDDISPLAY */
 /* #undef SDL_VIDEO_DRIVER_X11_HAS_XKBKEYCODETOKEYSYM */
 
-#define SDL_VIDEO_RENDER_D3D 1
+/* #undef SDL_VIDEO_RENDER_D3D */
 /* #undef SDL_VIDEO_RENDER_D3D11 */
 #define SDL_VIDEO_RENDER_OGL 1
 /* #undef SDL_VIDEO_RENDER_OGL_ES */

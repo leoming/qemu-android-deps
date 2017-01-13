@@ -1,4 +1,4 @@
-prefix=/tmp/qemu-android-deps-build/build/install-darwin-x86_64
+prefix=/tmp/ssh-build-qemu-android-deps/build/install-darwin-x86_64
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

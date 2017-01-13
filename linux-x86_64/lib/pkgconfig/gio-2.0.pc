@@ -1,4 +1,4 @@
-prefix=/tmp/digit-build-temp-464/install-linux-x86_64
+prefix=/usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-linux-x86_64
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
@@ -14,5 +14,5 @@ Version: 2.38.2
 Requires: glib-2.0 gobject-2.0
 Requires.private: gmodule-no-export-2.0
 Libs: -L${libdir} -lgio-2.0 -ldnsapi -liphlpapi
-Libs.private: -L/tmp/digit-build-temp-464/install-linux-x86_64/lib -lz   -lresolv 
+Libs.private: -L/usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-linux-x86_64/lib -lz   -lresolv 
 Cflags:

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-prefix=/tmp/digit-build-temp-464/install-linux-x86_64
+prefix=/usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-linux-x86_64
 exec_prefix=${prefix}
 exec_prefix_set=no
 libdir=${exec_prefix}/lib

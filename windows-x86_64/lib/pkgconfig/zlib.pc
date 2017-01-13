@@ -1,8 +1,8 @@
 prefix=/usr/local
 exec_prefix=/usr/local
-libdir=/tmp/digit-build-temp-464/install-windows-x86_64/lib
-sharedlibdir=/tmp/digit-build-temp-464/install-windows-x86_64/lib
-includedir=/tmp/digit-build-temp-464/install-windows-x86_64/include
+libdir=/usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-windows-x86_64/lib
+sharedlibdir=/usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-windows-x86_64/lib
+includedir=/usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-windows-x86_64/include
 
 Name: zlib
 Description: zlib compression library

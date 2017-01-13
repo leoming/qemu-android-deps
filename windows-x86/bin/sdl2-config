@@ -1,6 +1,6 @@
 #!/bin/sh
 
-prefix=/tmp/digit-build-temp-464/install-windows-x86
+prefix=/usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-windows-x86
 exec_prefix=${prefix}
 exec_prefix_set=no
 libdir=${exec_prefix}/lib
@@ -49,7 +49,7 @@ while test $# -gt 0; do
 #      ;;
 #    --static-libs)
     --libs|--static-libs)
-      echo -L${exec_prefix}/lib  -lmingw32 -lSDL2main -lSDL2  -mwindows  -Wl,--no-undefined -lm -ldinput8 -ldxguid -ldxerr8 -luser32 -lgdi32 -lwinmm -limm32 -lole32 -loleaut32 -lshell32 -lversion -luuid -XCClinker -static-libgcc
+      echo -L${exec_prefix}/lib  -lmingw32 -lSDL2main -lSDL2  -mwindows  -Wl,--no-undefined -lm -luser32 -lgdi32 -lwinmm -limm32 -lole32 -loleaut32 -lshell32 -lversion -luuid -XCClinker -static-libgcc
       ;;
     *)
       echo "${usage}" 1>&2

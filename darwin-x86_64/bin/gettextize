@@ -26,7 +26,7 @@ version=0.19.1
 
 # Set variables
 # - gettext_datadir     directory where the data files are stored.
-prefix="/tmp/qemu-android-deps-build/build/install-darwin-x86_64"
+prefix="/tmp/ssh-build-qemu-android-deps/build/install-darwin-x86_64"
 datarootdir="${prefix}/share"
 : ${gettext_datadir="${datarootdir}/gettext"}
 

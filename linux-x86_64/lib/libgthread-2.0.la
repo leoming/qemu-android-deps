@@ -17,7 +17,7 @@ old_library='libgthread-2.0.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/tmp/digit-build-temp-464/install-linux-x86_64/lib /tmp/digit-build-temp-464/install-linux-x86_64/lib/libglib-2.0.la -lpthread -lrt'
+dependency_libs=' -L/usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-linux-x86_64/lib /usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-linux-x86_64/lib/libglib-2.0.la -lpthread -lrt'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/tmp/digit-build-temp-464/install-linux-x86_64/lib'
+libdir='/usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-linux-x86_64/lib'

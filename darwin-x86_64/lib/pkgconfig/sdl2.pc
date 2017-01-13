@@ -1,6 +1,6 @@
 # sdl pkg-config source file
 
-prefix=/tmp/digit-build-temp-85922/install-darwin-x86_64
+prefix=/tmp/ssh-build-qemu-android-deps/build/install-darwin-x86_64
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

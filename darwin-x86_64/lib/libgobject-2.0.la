@@ -17,7 +17,7 @@ old_library='libgobject-2.0.a'
 inherited_linker_flags=' '
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/tmp/qemu-android-deps-build/build/install-darwin-x86_64/lib /tmp/qemu-android-deps-build/build/install-darwin-x86_64/lib/libglib-2.0.la /tmp/qemu-android-deps-build/build/install-darwin-x86_64/lib/libffi.la /tmp/qemu-android-deps-build/build/install-darwin-x86_64/lib/libintl.la -lc /tmp/qemu-android-deps-build/build/install-darwin-x86_64/lib/libiconv.la'
+dependency_libs=' -L/tmp/ssh-build-qemu-android-deps/build/install-darwin-x86_64/lib /tmp/ssh-build-qemu-android-deps/build/install-darwin-x86_64/lib/libglib-2.0.la /tmp/ssh-build-qemu-android-deps/build/install-darwin-x86_64/lib/libffi.la /tmp/ssh-build-qemu-android-deps/build/install-darwin-x86_64/lib/libintl.la -lc /tmp/ssh-build-qemu-android-deps/build/install-darwin-x86_64/lib/libiconv.la'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/tmp/qemu-android-deps-build/build/install-darwin-x86_64/lib'
+libdir='/tmp/ssh-build-qemu-android-deps/build/install-darwin-x86_64/lib'

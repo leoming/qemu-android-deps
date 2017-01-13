@@ -1,4 +1,4 @@
-prefix=/tmp/digit-build-temp-464/install-windows-x86
+prefix=/usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-windows-x86
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 toolexeclibdir=${exec_prefix}/lib/../lib32
