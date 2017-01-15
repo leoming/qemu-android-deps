@@ -17,7 +17,7 @@ old_library='libgio-2.0.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-windows-x86/lib -L/usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-windows-x86/lib32 /usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-windows-x86/lib/libgobject-2.0.la /usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-windows-x86/lib/../lib32/libffi.la /usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-windows-x86/lib/libgmodule-2.0.la /usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-windows-x86/lib/libglib-2.0.la -lole32 -lwinmm -lshlwapi -lws2_32 -ldnsapi -liphlpapi -lz'
+dependency_libs=' -L/tmp/zyy-build-temp-120638/install-windows-x86/lib -L/tmp/zyy-build-temp-120638/install-windows-x86/lib32 /tmp/zyy-build-temp-120638/install-windows-x86/lib/libgobject-2.0.la /tmp/zyy-build-temp-120638/install-windows-x86/lib/../lib32/libffi.la /tmp/zyy-build-temp-120638/install-windows-x86/lib/libgmodule-2.0.la /tmp/zyy-build-temp-120638/install-windows-x86/lib/libglib-2.0.la -lole32 -lwinmm -lshlwapi -lws2_32 -ldnsapi -liphlpapi -lz'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-windows-x86/lib'
+libdir='/tmp/zyy-build-temp-120638/install-windows-x86/lib'

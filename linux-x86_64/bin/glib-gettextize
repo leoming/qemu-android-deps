@@ -42,7 +42,7 @@ version=2.38.2
 try_ln_s=:
 
 # Directory where the sources are stored.
-prefix=/usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-linux-x86_64
+prefix=/tmp/zyy-build-temp-120638/install-linux-x86_64
 case `uname` in
 MINGW32*)
     prefix="`dirname $0`/.."

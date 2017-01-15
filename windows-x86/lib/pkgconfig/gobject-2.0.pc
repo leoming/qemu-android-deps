@@ -1,4 +1,4 @@
-prefix=/usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-windows-x86
+prefix=/tmp/zyy-build-temp-120638/install-windows-x86
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
@@ -8,5 +8,5 @@ Description: GLib Type, Object, Parameter and Signal Library
 Requires: glib-2.0
 Version: 2.38.2
 Libs: -L${libdir} -lgobject-2.0
-Libs.private: /usr/local/google/home/zyy/sources/emu-master-dev/external/qemu/bqad/install-windows-x86/lib32/libffi.la
+Libs.private: /tmp/zyy-build-temp-120638/install-windows-x86/lib32/libffi.la
 Cflags:
