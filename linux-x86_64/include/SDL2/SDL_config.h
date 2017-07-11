@@ -161,7 +161,7 @@
 /* #undef HAVE_GETPAGESIZE */
 #define HAVE_MPROTECT 1
 #define HAVE_ICONV 1
-/* #undef HAVE_PTHREAD_SETNAME_NP */
+#define HAVE_PTHREAD_SETNAME_NP 1
 /* #undef HAVE_PTHREAD_SET_NAME_NP */
 #define HAVE_SEM_TIMEDWAIT 1
 
@@ -245,8 +245,8 @@
 
 /* Enable various threading systems */
 #define SDL_THREAD_PTHREAD 1
-/* #undef SDL_THREAD_PTHREAD_RECURSIVE_MUTEX */
-#define SDL_THREAD_PTHREAD_RECURSIVE_MUTEX_NP 1
+#define SDL_THREAD_PTHREAD_RECURSIVE_MUTEX 1
+/* #undef SDL_THREAD_PTHREAD_RECURSIVE_MUTEX_NP */
 /* #undef SDL_THREAD_WINDOWS */
 
 /* Enable various timer systems */

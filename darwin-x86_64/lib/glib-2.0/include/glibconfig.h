@@ -144,7 +144,7 @@ typedef unsigned long guintptr;
 #endif
 
 #define G_HAVE_GNUC_VARARGS 1
-#define G_HAVE_GROWING_STACK 1
+#define G_HAVE_GROWING_STACK 0
 
 #if defined(__SUNPRO_C) && (__SUNPRO_C >= 0x590)
 #define G_GNUC_INTERNAL __attribute__((visibility("hidden")))

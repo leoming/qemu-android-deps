@@ -1,6 +1,6 @@
 # sdl pkg-config source file
 
-prefix=/tmp/zyy-build-temp-120638/install-linux-x86_64
+prefix=/tmp/jansene-build-temp-193494/install-linux-x86_64
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
