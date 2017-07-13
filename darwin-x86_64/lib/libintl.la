@@ -17,7 +17,7 @@ old_library='libintl.a'
 inherited_linker_flags=' '
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/tmp/ssh-build-qemu-android-deps/build/install-darwin-x86_64/lib /tmp/ssh-build-qemu-android-deps/build/install-darwin-x86_64/lib/libiconv.la -lc'
+dependency_libs=' -L/tmp/jansene-build-temp-91732/install-darwin-x86_64/lib /tmp/jansene-build-temp-91732/install-darwin-x86_64/lib/libiconv.la -lc'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/tmp/ssh-build-qemu-android-deps/build/install-darwin-x86_64/lib'
+libdir='/tmp/jansene-build-temp-91732/install-darwin-x86_64/lib'

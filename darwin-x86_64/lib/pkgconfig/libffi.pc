@@ -1,4 +1,4 @@
-prefix=/tmp/ssh-build-qemu-android-deps/build/install-darwin-x86_64
+prefix=/tmp/jansene-build-temp-91732/install-darwin-x86_64
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 toolexeclibdir=${exec_prefix}/lib
