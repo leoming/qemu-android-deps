@@ -1,0 +1,13 @@
+prefix=C:/Users/joshuaduong/CMakeBuilds/eadd84d6-4625-583a-8d8a-0838a15e6729/install/x64-Release
+exec_prefix=C:/Users/joshuaduong/CMakeBuilds/eadd84d6-4625-583a-8d8a-0838a15e6729/install/x64-Release
+libdir=C:/Users/joshuaduong/CMakeBuilds/eadd84d6-4625-583a-8d8a-0838a15e6729/install/x64-Release/lib
+sharedlibdir=C:/Users/joshuaduong/CMakeBuilds/eadd84d6-4625-583a-8d8a-0838a15e6729/install/x64-Release/lib
+includedir=C:/Users/joshuaduong/CMakeBuilds/eadd84d6-4625-583a-8d8a-0838a15e6729/install/x64-Release/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.10
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
