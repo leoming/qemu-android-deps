@@ -1,4 +1,4 @@
-prefix=/tmp/zyy-build-temp-120638/install-windows-x86_64
+prefix=/tmp/jansene-build-temp-33312/install-windows-x86_64
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
@@ -8,5 +8,5 @@ Description: GLib Type, Object, Parameter and Signal Library
 Requires: glib-2.0
 Version: 2.38.2
 Libs: -L${libdir} -lgobject-2.0
-Libs.private: /tmp/zyy-build-temp-120638/install-windows-x86_64/lib/libffi.la
+Libs.private: /tmp/jansene-build-temp-33312/install-windows-x86_64/lib/libffi.la
 Cflags:

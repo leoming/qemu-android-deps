@@ -96,7 +96,7 @@
 #define HAVE_MEMSET 1
 #define HAVE_MEMCPY 1
 #define HAVE_MEMMOVE 1
-#define HAVE_MEMCMP 1
+/* #undef HAVE_MEMCMP */
 #define HAVE_STRLEN 1
 /* #undef HAVE_STRLCPY */
 /* #undef HAVE_STRLCAT */
@@ -119,7 +119,7 @@
 #define HAVE__UI64TOA 1
 #define HAVE_STRTOLL 1
 #define HAVE_STRTOULL 1
-#define HAVE_STRTOD 1
+/* #undef HAVE_STRTOD */
 #define HAVE_ATOI 1
 #define HAVE_ATOF 1
 #define HAVE_STRCMP 1
@@ -129,7 +129,7 @@
 #define HAVE__STRNICMP 1
 #define HAVE_STRNCASECMP 1
 /* #undef HAVE_SSCANF */
-#define HAVE_VSSCANF 1
+/* #undef HAVE_VSSCANF */
 /* #undef HAVE_SNPRINTF */
 #define HAVE_VSNPRINTF 1
 #define HAVE_M_PI /**/
@@ -149,8 +149,8 @@
 #define HAVE_SIN 1
 #define HAVE_SINF 1
 #define HAVE_SQRT 1
-#define HAVE_FSEEKO 1
-#define HAVE_FSEEKO64 1
+/* #undef HAVE_FSEEKO */
+/* #undef HAVE_FSEEKO64 */
 /* #undef HAVE_SIGACTION */
 /* #undef HAVE_SA_SIGACTION */
 #define HAVE_SETJMP 1

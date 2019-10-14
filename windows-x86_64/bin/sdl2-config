@@ -1,6 +1,6 @@
 #!/bin/sh
 
-prefix=/tmp/zyy-build-temp-120638/install-windows-x86_64
+prefix=/tmp/jansene-build-temp-33312/install-windows-x86_64
 exec_prefix=${prefix}
 exec_prefix_set=no
 libdir=${exec_prefix}/lib

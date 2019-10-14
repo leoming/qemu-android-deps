@@ -17,7 +17,7 @@ old_library='libgio-2.0.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/tmp/zyy-build-temp-120638/install-windows-x86_64/lib -L/tmp/zyy-build-temp-120638/install-windows-x86_64/lib64 /tmp/zyy-build-temp-120638/install-windows-x86_64/lib/libgobject-2.0.la /tmp/zyy-build-temp-120638/install-windows-x86_64/lib/../lib/libffi.la /tmp/zyy-build-temp-120638/install-windows-x86_64/lib/libgmodule-2.0.la /tmp/zyy-build-temp-120638/install-windows-x86_64/lib/libglib-2.0.la -lole32 -lwinmm -lshlwapi -lws2_32 -ldnsapi -liphlpapi -lz'
+dependency_libs=' -L/tmp/jansene-build-temp-33312/install-windows-x86_64/lib -L/tmp/jansene-build-temp-33312/install-windows-x86_64/lib64 /tmp/jansene-build-temp-33312/install-windows-x86_64/lib/libgobject-2.0.la /tmp/jansene-build-temp-33312/install-windows-x86_64/lib/../lib/libffi.la /tmp/jansene-build-temp-33312/install-windows-x86_64/lib/libgmodule-2.0.la /tmp/jansene-build-temp-33312/install-windows-x86_64/lib/libglib-2.0.la -lole32 -lwinmm -lshlwapi -lws2_32 -ldnsapi -liphlpapi -lz'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/tmp/zyy-build-temp-120638/install-windows-x86_64/lib'
+libdir='/tmp/jansene-build-temp-33312/install-windows-x86_64/lib'

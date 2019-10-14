@@ -1,8 +1,8 @@
 prefix=/usr/local
 exec_prefix=/usr/local
-libdir=/tmp/zyy-build-temp-120638/install-windows-x86_64/lib
-sharedlibdir=/tmp/zyy-build-temp-120638/install-windows-x86_64/lib
-includedir=/tmp/zyy-build-temp-120638/install-windows-x86_64/include
+libdir=/tmp/jansene-build-temp-33312/install-windows-x86_64/lib
+sharedlibdir=/tmp/jansene-build-temp-33312/install-windows-x86_64/lib
+includedir=/tmp/jansene-build-temp-33312/install-windows-x86_64/include
 
 Name: zlib
 Description: zlib compression library

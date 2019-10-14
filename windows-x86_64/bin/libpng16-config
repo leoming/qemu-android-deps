@@ -12,7 +12,7 @@
 # Modeled after libxml-config.
 
 version="1.6.16"
-prefix="/tmp/zyy-build-temp-120638/install-windows-x86_64"
+prefix="/tmp/jansene-build-temp-33312/install-windows-x86_64"
 exec_prefix="${prefix}"
 libdir="${exec_prefix}/lib"
 includedir="${prefix}/include/libpng16"
